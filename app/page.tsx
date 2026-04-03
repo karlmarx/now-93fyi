@@ -114,8 +114,7 @@ export default function NowPage() {
           </h2>
           <div className="font-prose text-[1.125rem] leading-[1.85] text-fg/90">
             <p>
-              Based in Florida, on Eastern time. The
-              humidity is a character flaw I&rsquo;ve learned to live with.
+              Based in Florida, on Eastern time.
             </p>
           </div>
         </section>
