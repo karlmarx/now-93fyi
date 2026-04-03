@@ -80,9 +80,6 @@ export default function NowPage() {
               Why fitness apps need your data to live on their servers.
               nwbfit keeps it local.
             </p>
-            <p>
-              Yoga studios that look like they were cast. The practice should fit the body, not the other way.
-            </p>
           </div>
         </section>
 
