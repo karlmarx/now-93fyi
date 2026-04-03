@@ -38,9 +38,26 @@ export default function NowPage() {
           </h2>
           <div className="font-prose text-[1.125rem] leading-[1.85] space-y-5 text-fg/90">
             <p>
-              Most of my energy goes into tools for people whose needs the
-              mainstream tech industry tends to ignore&mdash;or worse, to
-              exploit.
+              <a
+                href="https://nfit.93.fyi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4"
+              >
+                <strong>nwbfit</strong>
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://nyoga.93.fyi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4"
+              >
+                <strong>nwb-yoga</strong>
+              </a>{" "}
+              started because I stress fractured my femur and needed to adjust
+              my own workouts. MRI data, adjusted programs, yoga that adapts to
+              the injury. Built for me, now public.
             </p>
             <p>
               <a
@@ -51,47 +68,9 @@ export default function NowPage() {
               >
                 <strong>TrickAdvisor</strong>
               </a>{" "}
-              is an anonymous review platform for gay men&rsquo;s hookup spots.
-              The premise is simple: honest, community-sourced information about
-              places that don&rsquo;t advertise. The challenge is building trust
-              and safety into a system designed around anonymity.
-            </p>
-            <p>
-              <a
-                href="https://nfit.93.fyi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4"
-              >
-                <strong>nwbfit</strong>
-              </a>{" "}
-              tracks workouts with a difference&mdash;it adjusts
-              recommendations based on MRI data, building exercise programs
-              around your actual body rather than population averages.
-            </p>
-            <p>
-              <a
-                href="https://nyoga.93.fyi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4"
-              >
-                <strong>nwb-yoga</strong>
-              </a>{" "}
-              is a yoga companion that takes the same body-aware approach,
-              adapting practice to individual anatomy and capacity.
-            </p>
-            <p>
-              All of these live under{" "}
-              <a
-                href="https://93.fyi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4"
-              >
-                <strong>93.fyi</strong>
-              </a>
-              , my personal domain hub.
+              is an anonymous hookup review app for gay men. A friend had the
+              idea over dinner. I built the first version that night using
+              Claude Code.
             </p>
           </div>
         </section>
