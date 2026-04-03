@@ -17,7 +17,6 @@ export default function NowPage() {
         <header className="fade-up mb-16 sm:mb-24">
           <h1
             className="font-heading text-[4rem] sm:text-[5.5rem] font-light leading-[0.9] tracking-tight text-fg mb-6"
-            style={{ textShadow: "0 0 80px rgba(255,32,112,0.2)" }}
           >
             Now
           </h1>
@@ -25,10 +24,7 @@ export default function NowPage() {
             What I&rsquo;m up to, as of {fullDate}
           </p>
           <div
-            className="mt-8 h-[1.5px] w-12"
-            style={{
-              background: "linear-gradient(to right, #ff2070, transparent)",
-            }}
+            className="mt-8 h-[1px] w-16 bg-accent/40"
           />
         </header>
 
@@ -157,7 +153,7 @@ export default function NowPage() {
           <div className="font-prose text-[1.125rem] leading-[1.85] text-fg-muted italic">
             <p>
               Update this section in{" "}
-              <code className="text-fg/50 not-italic text-sm font-mono bg-white/5 px-1.5 py-0.5 rounded">
+              <code className="text-fg-muted not-italic text-sm font-mono bg-fg/5 px-1.5 py-0.5 rounded">
                 app/page.tsx
               </code>
             </p>
@@ -182,7 +178,7 @@ export default function NowPage() {
 
         {/* Footer */}
         <footer
-          className="fade-up pt-10 border-t border-white/6"
+          className="fade-up pt-10 border-t border-fg/8"
           style={{ animationDelay: "0.5s" }}
         >
           <p className="font-prose text-sm text-fg-muted tracking-wide">
