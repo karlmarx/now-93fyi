@@ -38,39 +38,27 @@ export default function NowPage() {
           </h2>
           <div className="font-prose text-[1.125rem] leading-[1.85] space-y-5 text-fg/90">
             <p>
-              <a
-                href="https://nfit.93.fyi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4"
-              >
-                <strong>nwbfit</strong>
+              Stress fractured my femur. Needed to keep training around it.
+              Built{" "}
+              <a href="https://nfit.93.fyi" target="_blank" rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4">
+                nwbfit
               </a>{" "}
               and{" "}
-              <a
-                href="https://nyoga.93.fyi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4"
-              >
-                <strong>nwb-yoga</strong>
+              <a href="https://nyoga.93.fyi" target="_blank" rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4">
+                nwb-yoga
               </a>{" "}
-              started because I stress fractured my femur and needed to adjust
-              my own workouts. MRI data, adjusted programs, yoga that adapts to
-              the injury. Built for me, now public.
+              to adjust my own workouts around MRI data. They&rsquo;re public now.
             </p>
             <p>
-              <a
-                href="https://trickadvisor.cc"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4"
-              >
-                <strong>TrickAdvisor</strong>
+              A friend had an idea for a hookup review app for gay men over dinner.
+              Built{" "}
+              <a href="https://trickadvisor.cc" target="_blank" rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 underline decoration-accent/30 underline-offset-4">
+                TrickAdvisor
               </a>{" "}
-              is an anonymous hookup review app for gay men. A friend had the
-              idea over dinner. I built the first version that night using
-              Claude Code.
+              that night using Claude Code. Anonymous, community-sourced.
             </p>
           </div>
         </section>
@@ -85,38 +73,15 @@ export default function NowPage() {
           </h2>
           <div className="font-prose text-[1.125rem] leading-[1.85] space-y-5 text-fg/90">
             <p>
-              <em className="text-fg not-italic font-semibold">
-                The ethics of anonymous digital spaces.
-              </em>{" "}
-              Building TrickAdvisor means sitting with the tension between
-              anonymity as liberation and anonymity as license. Queer spaces
-              have always depended on the ability to be present without being
-              identified&mdash;cruising culture is, among other things, a
-              technology for survival. But every system that protects
-              vulnerability also creates cover for harm. I don&rsquo;t have
-              clean answers. I&rsquo;m building anyway.
+              Whether anonymous spaces protect people or just give cover. Both, probably.
+              Still building TrickAdvisor.
             </p>
             <p>
-              <em className="text-fg not-italic font-semibold">
-                Fitness data sovereignty.
-              </em>{" "}
-              Your body generates extraordinary amounts of data&mdash;heart
-              rate, gait patterns, muscle composition, spinal curvature. Most
-              of it flows straight into corporate databases the moment you clip
-              on a tracker. nwbfit is partly an argument that this information
-              belongs to you, and that meaningful fitness guidance requires
-              keeping it close rather than handing it over.
+              Why fitness apps need your data to live on their servers.
+              nwbfit keeps it local.
             </p>
             <p>
-              <em className="text-fg not-italic font-semibold">
-                Yoga and body image.
-              </em>{" "}
-              Yoga&rsquo;s Western iteration has a representation problem and a
-              body problem&mdash;the dominant aesthetic is thin, white, flexible
-              in ways that feel more performative than functional. nwb-yoga
-              starts from the opposite premise: every body is a yoga body, and
-              the practice should adapt to the person, not the other way
-              around.
+              Yoga studios that look like they were cast. The practice should fit the body, not the other way.
             </p>
           </div>
         </section>
